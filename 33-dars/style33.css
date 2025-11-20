@@ -1,0 +1,23 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.contanier {
+	width: 100%;
+	background-color: black;
+	padding: 100px 0px;
+}
+
+h1 {
+	color: white;
+	display: inline-block;
+	border-right: 1px solid white;
+	transition: width 1.5s linear;
+	overflow: hidden;
+	width: 0;
+	white-space: nowrap;
+	padding: 20px 0 20px 20px;
+	text-transform: uppercase;
+}
