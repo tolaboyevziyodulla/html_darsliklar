@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.box {
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	top: calc(50% - 150px);
+	left: calc(50% - 100px);
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	transform: rotateY(-45deg);
+	
+}
+
+.box div {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	transform-style: preserve-3d;
+	transform: rotateY(-45deg);
+	animation-name: charx;
+	animation-duration: 0.01s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+
+}
+
+span {
+	width: 100%;
+	height: 100%;
+	background-image: url('b.jpg');
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	border-radius: 50px;
+	color: blue;
+}
+
+span:nth-child(1) {
+	transform: rotateX(45deg);
+}
+
+span:nth-child(2) {
+	transform: rotateX(90deg);
+}
+
+span:nth-child(3) {
+	transform: rotateX(-45deg);
+}
+
+@keyframes charx {
+	0% {
+		transform: rotateX(0deg);
+	}
+
+	100% {
+		transform: rotateX(360deg);
+	}
+}
