@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.navbar {
+	position: sticky;
+	list-style-type: none;
+	background-color: #35A2D9;
+	color: white;
+	top: 0;
+}
+
+.navbar > li {
+	display: inline-block;
+	padding: 15px;
+	font-size: 1.2em;
+	position: relative;
+	cursor: pointer;
+	transition: background 1s;
+}
+
+.sub-navbar {
+	position: absolute;
+	background-color: white;
+	color: #35A2D9;
+	list-style-type: none;
+	top: 100%;
+	display: none;
+}
+
+.sub-navbar > li {
+	white-space: nowrap;
+	padding: 5px 30px;
+	border: 1px solid black;
+	position: relative;
+	transition: background 1s;
+} 
+
+.navbar > li:hover .sub-navbar {
+	display: block;
+}
+
+.navbar > li:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.sub-navbar > li:hover {
+	background-color: #35A2D9;
+	color: white;
+}
+
+.dou-sub-navbar {
+	top: 0%;
+	position: absolute;
+	background-color: white;
+	color: #35A2D9;
+	list-style-type: none;
+	left: 100%;
+	display: none;
+}
+
+.dou-sub-navbar > li {
+	white-space: nowrap;
+	padding: 5px 30px;
+	border: 1px solid black;
+	transition: background 1s;
+}
+
+.sub-navbar > li:hover .dou-sub-navbar {
+	display: block;
+}
+
+.dou-sub-navbar > li:hover {
+	background-color: #35A2D9;
+	color: white;
+}
+
+p {
+	font-size: 8rem;
+}
+
+div {
+	width: 100vw;
+	height: 50px;
+	background-color: red;
+}
