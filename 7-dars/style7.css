@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.card {
+	width: 300px;
+	text-align: center;
+	margin: 50px;
+	padding: 10px;
+	font-family: MV Boli;
+	box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.6);
+	text-shadow: 1px brown;
+}
+
+img {
+	width: 100%;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+span {
+	padding-right: 30px;
+	color: red;
+}
+
+button {
+	padding: 10px 30px;
+	color: white;
+	background: linear-gradient(red, orange);
+	border: none;
+	border-radius: 50px;
+}
