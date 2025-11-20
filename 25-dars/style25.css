@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.foot {
+	width: 200px;
+	height: 400px;
+	font-size: 10rem;
+	position: absolute;
+	transform-origin: top;
+}
+
+#ong {
+	animation-timing-function: linear;
+	animation-duration: 1s;
+	top: 0;
+	left: 900px;
+	transform: scaleX(-1);
+}
+
+#chap {
+	animation-timing-function: linear;
+	animation-duration: 1s;
+}
+
+#ball {
+	width: 100px;
+	height: 100px;
+	font-size: 4rem;
+	position: absolute;
+	top: 130px;
+	left: 160px;
+	transition: left 1s linear;
+}
+
+@keyframes oyoq2 {
+	0% {
+		transform: scaleX(-1), rotateZ(0);
+	}
+
+	70% {
+		transform: scaleX(-1), rotateZ(-30deg);
+	}
+
+	80% {
+		transform: scaleX(-1), rotateZ(30deg);
+	}
+
+	100% {
+		transform: scaleX(-1), rotateZ(0);
+	}
+}
+
+@keyframes oyoq1 {
+	0% {
+		transform: rotateZ(0);
+	}
+
+	70% {
+		transform: rotateZ(30deg);
+	}
+
+	80% {
+		transform: rotateZ(-30deg);
+	}
+
+	100% {
+		transform: rotateZ(0);
+	}
+}
