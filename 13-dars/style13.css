@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.navbar {
+	list-style-type: none;
+	background-color: red;
+	text-align: center;
+	overflow: hidden;
+}
+
+li {
+	padding: 15px;
+	display: inline-block;
+	color: blue;
+}
+
+#button {
+	visibility: hidden;
+	display: none;
+}
+
+label {
+	display: none;
+	position: absolute;
+	padding: 10px 20px;
+	background-color: red;
+	top: 70px;
+	left: 200px;
+}
+
+@media (max-width: 600px) {
+	.navbar {
+		text-align: left;
+		height: 50vh;
+		position: fixed;
+		height: 0;
+		transition: height 2s linear;
+	}
+
+	.navbar li {
+		display: block;
+		padding: 10px 60px 10px 20px;
+	}
+
+	label {
+		display: block; 
+	}
+}
+
+#button:checked + .navbar {
+	display: inline-block;
+	height: 50vh;
+}
