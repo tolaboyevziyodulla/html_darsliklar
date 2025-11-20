@@ -1,0 +1,23 @@
+p {
+	color: orange;
+	background-color: black;
+	font-size: 50px;
+	font-family: Webdings;
+	font-weight: bold;
+	font-style: italic;
+	line-height: 50px;
+	letter-spacing: 10px;
+	word-spacing: 20px;
+	text-align: center;
+}
+
+p:first-letter {
+	font-size: 100px;
+}
+
+div {
+	width: 500px;
+	height: 500px;
+	background-image: url(apple.jpg);
+	background-size: cover;
+}
