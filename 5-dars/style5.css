@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+}
+
+.contanier {
+	width: 100vw;
+	height: 100vh;
+	background-image: url('b.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+#text {
+	color: yellow;
+	text-align: justify;
+}
+
+h1 {
+	background-color: rgba(255, 255, 255, 0.3);
+	width: 270px;
+}

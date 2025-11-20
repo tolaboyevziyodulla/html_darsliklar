@@ -1,0 +1,14 @@
+button {
+	background-color: transparent;
+	color: #2DBF64;
+	font-size: 1.2em;
+	padding: 10px 20px;
+	border: 1px solid #2DBF64;
+	border-radius: 5px;
+}
+
+div {
+	background: linear-gradient(#E8A34A 50%, #E8910D 50%);
+	width: 500px;
+	height: 300px;
+}
