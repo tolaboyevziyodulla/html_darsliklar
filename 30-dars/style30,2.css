@@ -1,0 +1,9 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#app div {
+	transition: top 1s cubic-bezier(0.06, 3.02, 0.74, -0.27);
+}

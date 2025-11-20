@@ -1,0 +1,33 @@
+body {
+	background-color: #f44336;
+}
+
+.triangle {
+	position: relative;
+}
+
+p {
+	display: inline-block;
+	position: absolute;
+	background-color: black;
+}
+
+#a {
+	width: 2px;
+	height: 0;
+	transition: height 1s linear;
+}
+
+#b {
+	height: 2px;
+	width: 0;
+	transition: width 1s linear;
+	top: 300px;
+}
+
+#c {
+	transform-origin: top;
+	width: 2px;
+	height: 0;
+	transition: height 1s linear;
+}
