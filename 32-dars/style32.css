@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#app button {
+	padding: 20px;
+	font-size: 2rem;
+	color: transparent;
+}
+
+#app {
+	text-align: center;
+	margin-top: 100px;
+}
