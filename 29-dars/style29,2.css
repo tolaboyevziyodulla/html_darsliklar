@@ -1,0 +1,12 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#a {
+	width: 100px;
+	height: 100px;
+	background-color: black;
+	transition: height 0.5s linear, width 0.5s linear;
+}
