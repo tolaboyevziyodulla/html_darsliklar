@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.triangle	{
+	width: 0;
+	height: 0;
+	border-width: 15px 20px;
+	border-style: solid;
+	border-color: #6B4D8B transparent transparent transparent;
+	margin: auto;
+}
+
+
+.box {
+	background-color: #6B4D8B;
+	text-align: center;
+}
+
+p {
+	padding: 10px;
+	font-family: arial;
+	color: white;
+}
