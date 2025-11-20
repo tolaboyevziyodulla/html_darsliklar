@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+form {
+	width: 30%;
+	margin: auto;
+	margin-top: 100px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+	padding: 50px;
+	font-family: arial;
+}
+label {
+	position: absolute;
+	color: rgba(0, 0, 0, 0.5);
+	pointer-events: none;
+	left: 0;
+	transition: font 0.5s, transform 0.5s;
+}
+
+input {
+	width: 100%;
+	border: none;
+	border-bottom: 2px solid red;
+	outline: none;
+	transition: border 0.5s;
+}
+
+a {
+	margin-top: 5px;
+	display: inline-block;
+}
+
+p {
+	margin-top: 30px;
+	position: relative;
+}
+
+h2 {
+	text-align: center;
+}
+
+button {
+	width: 100%;
+	padding: 15px;
+	border: none;
+	background-color: #FFDB4D;
+	font-size: 1.2rem;
+	border-radius: 3px;
+}
+
+input:focus + label {
+	font-size: 0.8rem;
+	transform: translateY(-100%);
+}
+
+input:focus {
+	border-bottom-color: orange;
+}
